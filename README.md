@@ -6,7 +6,7 @@ to run the app:
 2. `npm install`
 3. `npm start`
 
-###### Get list of matches by team and status(optional):
+## Get list of matches by team and status(optional):
 
 * URL: /matches/team/:name
 * URL PARAMS: <name>(required)
@@ -14,10 +14,10 @@ to run the app:
 * Response:
     - Success : code: 200, content : [{match1},{match1}...]
     - Error: code: 404, content: {error: "no matches found"}
-* Example: http://localhost:8080/matches/team/Manchester City
+* Example: http://localhost:8080/matches/team/Manchester%20City
     
 
-###### Get list of matches by tournament and status(optional):
+## Get list of matches by tournament and status(optional):
 
 * URL: /matches/tournament/:name
 * URL PARAMS: <name>(required)
