@@ -1,0 +1,11 @@
+{
+  "name": "footballgamesservice",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "csv-to-array": "^1.0.2",
+    "express": "^4.17.1"
+  }
+}
